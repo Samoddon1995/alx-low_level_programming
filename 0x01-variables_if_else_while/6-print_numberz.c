@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 /**
  * main - main block
@@ -12,7 +14,7 @@ int main(void)
 
 	while (c < 10)
 	{
-		putchar(c);
+		putchar(48 + c);
 		c++;
 	}
 	putchar('\n');
