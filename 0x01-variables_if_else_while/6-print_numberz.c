@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
 
 /**
  * main - main block
@@ -10,7 +8,7 @@
  */
 int main(void)
 {
-	char c = '0';
+	int c = '0';
 
 	while (c < 10)
 	{
