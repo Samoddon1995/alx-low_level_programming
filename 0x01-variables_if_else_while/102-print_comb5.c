@@ -47,6 +47,6 @@ int main(void)
 		}
 		c++;
 	}
-	putchar(-);
+	putchar('-');
 	return (0);
 }
