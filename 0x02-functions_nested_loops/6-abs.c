@@ -5,10 +5,14 @@
  * @c: The integer to be computed
  * Return: The absolute value
  */
-int _abs(int)
+int _abs(int c)
 {
-	if (t >= 0)
-		return (t);
-	else
-		return (-t);
+	if (c < 0)
+	{
+		int abs_val;
+
+		abs_val = c * -1;
+		return (abs_val);
+	}
+	return (c);
 }
